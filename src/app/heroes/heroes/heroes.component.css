@@ -18,3 +18,11 @@
     cursor: pointer;
     transform: scale(1.07);
 }
+.heroes li.selected {
+    background-color: rgb(197, 205, 209);
+    color: white;
+}
+.heroes li.selected:hover {
+    background-color: #BBD8DC;
+    color: white;
+}

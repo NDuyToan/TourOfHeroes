@@ -1,0 +1,5 @@
+<div class="box-hero">
+    <div *ngFor="let hero of heroes" routerLink="/detail/{{hero.id}}">
+        <h5 class="hero" >{{hero.name}}</h5>
+    </div>
+</div>
